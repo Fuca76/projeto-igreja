@@ -24,7 +24,7 @@
 body{
     background-image: linear-gradient(to left,var(--cor01),var(--cor02),var(--cor03),var(--cor04),var(--cor05));
 }
-body>h1{
+body > h1{
     color: var(--cor01);
     font-family: var(--font01);
     text-align: center;
