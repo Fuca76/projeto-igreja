@@ -9,27 +9,37 @@
 </head>
 <style>
     @font-face {
-    font-family:'fogo' ;
+    font-family:'fogo' verdana;
     src: url('../fontes/FLAMER.TTF') format('truetype');
     }
     body{
         background-color:rgba(0, 0, 0, 0.898);
-        background-image: url('../imagens/leao.png');
-        background-position: center center;
+        background-position: center;
         background-repeat: no-repeat;
-        background-attachment: fixed;
+      background-attachment: auto;
         background-size: 100%;
     }
     body > h1{
-        font-family: 'fogo' ;
+        font-family: 'fogo'verdana;
         text-align: center;
         color: rgba(218, 24, 24, 0.727);
     }
-
+    section#img{
+        background-position: center;
+        background-repeat: no-repeat;
+      background-attachment: auto;
+        background-size: 100%;
+    }
+    footer{
+        color: white;
+        text-align: center;
+    }
     
 </style>
 <body>
     <h1>Eventos</h1>
+    <section class="leao" id="img"><img src="../imagens/leao.png" alt="Leão"></section>
 
 </body>
+<footer>&copy;TaísCarvalho</footer>
 </html>
